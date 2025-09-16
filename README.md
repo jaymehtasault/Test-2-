@@ -10,13 +10,13 @@ This project is an enhanced version of Lab 1. It includes:
 -  Like/Dislike voting system with unlimited clicks
 
 
-//used chat gpt for if code
+used chat gpt for if code
     password.oninput = function () {
       const val = password.value;
       if (val.length < 6) {
         strengthMsg.textContent = "Weak";
         strengthMsg.style.color = "red";
-// used chatgpt for append child code
+ used chatgpt for append child code
          voteContainer.appendChild(likeLabel);
       voteContainer.appendChild(countDisplay);
       voteContainer.appendChild(dislikeLabel);
